@@ -36,11 +36,11 @@ export const services: Service[] = [
     id: 'residential-services',
     title: 'Residential Services',
     shortDescription: 'Complete plumbing solutions for homes including repairs, installations, and maintenance.',
-    fullDescription: 'Frank\'s Plumbing offers comprehensive residential plumbing services for homeowners throughout South Denver. From fixing leaky faucets and running toilets to repiping entire homes, our skilled technicians handle all aspects of home plumbing. We prioritize clean work spaces, transparent pricing, and long-lasting results that give you peace of mind.',
+    fullDescription: "Frank's Plumbing offers comprehensive residential plumbing services for homeowners throughout South Denver. From fixing leaky faucets, running toilets, garbage disposals, shower valves, hose spigots, to repiping entire homes, our skilled technicians handle all aspects of home plumbing. We prioritize clean work spaces, transparent pricing, and long-lasting results that give you peace of mind.",
     icon: Home,
     benefits: [
       'Comprehensive home plumbing solutions',
-      'Fixture installation and repair',
+      'Fixture installation and repair (toilets, faucets, garbage disposals, shower valves, hose spigots)',
       'Pipe leak detection and repair',
       'Bathroom and kitchen renovations',
       'Sump pump installation and maintenance'

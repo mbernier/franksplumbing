@@ -80,6 +80,10 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm opacity-80">
+          <div className="text-center md:text-left mb-2 md:mb-0">
+            <span className="font-bold text-brand-darkBlue">Fast &bull; Affordable &bull; Guaranteed Expert Service</span>
+            <span className="mx-2 text-brand-red font-bold">24 Hr Service</span>
+          </div>
           <p>&copy; {currentYear} Frank's Plumbing. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/privacy-policy" className="hover:text-brand-red mr-4">Privacy Policy</Link>

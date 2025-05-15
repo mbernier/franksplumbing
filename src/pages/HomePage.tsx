@@ -16,6 +16,12 @@ const HomePage: React.FC = () => {
       <HeroSection />
       <ServicesSection />
       <CallToAction />
+      <section className="py-8 bg-brand-grey text-center">
+        <div className="container-custom">
+          <h2 className="text-2xl font-bold mb-2 text-brand-blue">Testimonials</h2>
+          <p className="text-lg text-brand-darkGrey">Google Reviews coming soon!</p>
+        </div>
+      </section>
       <TestimonialsSection />
       <ServiceAreasSection />
     </>

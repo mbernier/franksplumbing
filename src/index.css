@@ -85,3 +85,12 @@
     transform: scale(1);
   }
 }
+
+/* Water droplet background for hero/footer sections - matches business card/door hanger */
+.bg-water-drops {
+  background-image: url('/images/water-pattern.png');
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  opacity: 1;
+  /* Adjust for subtlety */
+}

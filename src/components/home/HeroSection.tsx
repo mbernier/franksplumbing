@@ -16,13 +16,21 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="inline-block bg-brand-red text-white px-4 py-1 rounded-full text-sm font-semibold mb-4">
-              Your Trustworthy South Denver Plumber
+              Your Trustworthy Neighborhood Plumber
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
               Expert Plumbing <span className="text-brand-red">Solutions</span> When You Need Them
             </h1>
+            <span className="inline-block bg-brand-blue text-white px-3 py-1 rounded-full text-base font-semibold mb-4">
+              $25 off first service
+            </span>
+            <ul className="mb-6 text-lg text-white/90 list-disc list-inside pl-2">
+              <li>Water Heaters</li>
+              <li>Drain Cleaning</li>
+              <li>Residential Services</li>
+            </ul>
             <p className="text-lg md:text-xl mb-8 text-white/90">
-              Fast, affordable, and guaranteed expert service with 24-hour emergency response in Highlands Ranch, Littleton, Lakewood, Centennial, and Lone Tree.
+              Fast, affordable, and guaranteed expert service with 24-hour emergency response.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -46,7 +54,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="hidden md:block"
           >
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white p-6 rounded-lg shadow-lg bg-water-drops">
               <h3 className="text-brand-blue font-bold text-xl mb-4">Why Choose Frank's Plumbing?</h3>
               <ul className="space-y-3 text-brand-darkGrey">
                 <li className="flex items-start">
